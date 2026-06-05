@@ -1,0 +1,13 @@
+/* 1. Import the Tailwind engine */
+@import "tailwindcss";
+
+/* 2. Global Base Styles */
+@layer base {
+  body {
+    background-color: #f3f4f6;
+    /* Optional: Adds a subtle dot pattern to the background */
+    background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 24px 24px;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
